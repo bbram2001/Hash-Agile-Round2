@@ -7,8 +7,8 @@ import csv
 logging.basicConfig(level=logging.DEBUG)
 
 es = Elasticsearch(
-    ["https://b12e407de2f44307a4d5957b39cb146d.us-central1.gcp.cloud.es.io:443"],
-    api_key=("AHj8i5IBkqMQT77uppXy", "dlKetC8YTxauMgn52m5rgg")
+    ["https://7cbbe8c039f643bc84c81782256005c0.us-central1.gcp.cloud.es.io:443"],
+    api_key=("da0dcpMB_LmTrj5piLeC", "hBLOGOVrSwG-80foybOzEQ")
 )
 
 
@@ -118,7 +118,7 @@ getEmpCount(v_nameCollection)
 indexData(v_nameCollection, 'Department', file_path)
 indexData(v_phoneCollection, 'Gender', file_path)
 
-delEmpById(v_nameCollection, 'E02003')
+delEmpById(v_nameCollection, 'E02004')
 
 
 getEmpCount(v_nameCollection)
